@@ -1,0 +1,179 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #e6eff6;
+    font-family: "Karla", serif;
+    font-size: 16px;
+  }
+
+  .flxbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .wrapper {
+    height: 100vh;
+  }
+
+  .container {
+    width: 637px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 10px 24px #b9cbd8;
+  }
+
+  .hero-content {
+    padding: 40px;
+  }
+
+  .hero-content h1 {
+    color: hsl(179, 62%, 43%);
+    margin-bottom: 20px;
+  }
+
+  .hero-content span {
+    color: hsl(71, 73%, 54%);
+    font-size: 20px;
+  }
+
+  .hero-content p {
+    color: hsl(218, 22%, 67%);
+    line-height: 1.5rem;
+    margin-top: 10px;
+  }
+
+  .bottom-section {
+    display: flex;
+  }
+
+  .subscription-details {
+    padding: 40px;
+    width: 50%;
+    background-color: #2bb3b1;
+    border-radius: 0px 0px 0px 8px;
+    color: white;
+  }
+
+  .subscription-details h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .price-details {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+
+  .price {
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .price-duration {
+    color: #76d8d6;
+    font-size: 14px;
+  }
+
+  .subscription-details p {
+    color: rgba(255, 255, 255, 0.736);
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .subscription-details button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 4px;
+    background-color: #bfdf32;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    box-shadow: 0px 5px 18px #177f7dbf;
+  }
+
+  .features {
+    padding: 40px;
+    width: 50%;
+    color: white;
+    background-color: #4abebd;
+    border-radius: 0px 0px 8px 0px;
+  }
+
+  .features h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .features ul li {
+    list-style-type: none;
+    color: rgba(255, 255, 255, 0.736);
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 5px;
+  }
+
+  footer {
+    padding: 10px;
+    background-color: white;
+    margin-top: 30px;
+  }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  @media screen and (max-width: 768px) {
+    .wrapper {
+      height: auto;
+      padding: 30px;
+    }
+
+    .container {
+      width: 100%;
+    }
+
+    .hero-content {
+      padding: 24px;
+    }
+
+    .hero-content h1 {
+      font-size: 20px;
+    }
+
+    .hero-content span {
+      font-size: 18px;
+    }
+
+    .hero-content p {
+      font-size: 14px;
+    }
+
+    .bottom-section {
+      flex-direction: column;
+    }
+
+    .subscription-details {
+      width: 100%;
+      border-radius: 0px;
+      padding: 24px;
+    }
+
+    .features {
+      width: 100%;
+      border-radius: 0px 0px 8px 8px;
+      padding: 24px;
+    }
+  }
